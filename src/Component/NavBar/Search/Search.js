@@ -9,9 +9,9 @@ function Search({ searchInput, setSearchInput }) {
         setSearchInput(e.target.value);
     };
     return (
-        <div className="w-1/2 text-center">
+        <div className="w-full lg:text-center lg:w-1/2">
             <input
-                className="w-2/5 p-2.5 bg-primary-color text-white rounded-lg border-none outline-none placeholder:text-white"
+                className="w-4/5 p-2.5 my-3.5 bg-primary-color text-white rounded-lg border-none outline-none placeholder:text-white lg:w-2/5"
                 type="text"
                 placeholder="Search Movie...."
                 value={searchInput}
