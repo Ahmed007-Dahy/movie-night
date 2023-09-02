@@ -17,7 +17,7 @@ function App() {
     const { movies, isLoading, error } = useMovies(searchInput);
     const [watchedMovie, setWatchedMovie] = useState(function () {
         const storedWatchedMovie = localStorage.getItem('watchedMovie');
-        return JSON.parse(storedWatchedMovie);
+        return JSON.parse(storedWatchedMovie) || [];
     });
     const [movieId, setMovieId] = useState(null);
 
