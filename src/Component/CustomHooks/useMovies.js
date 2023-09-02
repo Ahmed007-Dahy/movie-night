@@ -49,7 +49,7 @@ export function useMovies(searchInput) {
                 controller.abort();
             };
         },
-        [searchInput, KEY],
+        [searchInput, setError],
     );
     return { movies, isLoading, error };
 }
