@@ -6,3 +6,4 @@
   <li>Create your own curated list of must-watch movies. With just a click after rating this movie, you can add movies to your watchlist, making it easier than ever to       keep track of the films you intend to see</li>
   <li>I use for building this page React.js & useState & useEffect & Custom Hook</li>
 </ol>
+You can find live preview from this link (popcorn-cinema.netlify.app)
